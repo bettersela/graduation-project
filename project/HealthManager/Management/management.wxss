@@ -1,0 +1,41 @@
+.btn1{
+  width: 375rpx;
+  height: 375rpx; 
+  margin-top: 37.5rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+}
+
+.btnImg {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.btn1::after {
+  border: 0; 
+}
+
+ .btn2 {
+  width: 375rpx;
+  height: 375rpx;
+  margin-top: 37.5rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+ }
+
+ .btn2::after {
+  border: 0; 
+}
+

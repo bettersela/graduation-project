@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "HealthManager/Management/Disease/disease",
+    "HealthManager/Management/management",
+    
+    "HealthManager/Management/Medicine/medicine",
+    "HealthManager/Personal/personal",
+    "HealthManager/Management/Disease/AddDisease/addDisease",
+    "HealthManager/Management/Disease/ModDisease/modDisease",
+    "HealthManager/Login/login"
+
+    
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "健康管理",
+        "pagePath": "HealthManager/Management/management",
+        "iconPath": "images/management.png",
+        "selectedIconPath": "images/management-selected.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "HealthManager/Personal/personal",
+        "iconPath": "images/personal.png",
+        "selectedIconPath": "images/personal-selected.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#358de5"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}
