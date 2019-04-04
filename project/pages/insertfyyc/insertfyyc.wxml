@@ -1,0 +1,26 @@
+<!--pages/insertfyyc/insertfyyc.wxml-->
+<view class="container">
+  <form bindsubmit='formSubmit'>
+    <!-- <input name="name" placeholder='药名'></input>
+    <input name="shijian" placeholder='时间'></input>
+    <input name="leixing" placeholder='类型'></input>
+    <input name="yongliang" placeholder='用量'></input> -->
+    <view class="inputView">
+      <text class='text'>药品名称：</text>
+      <input class="inputText" name="name"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>服药时间：</text>
+      <input class="inputText" name="shijian"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>异常类型：</text>
+      <input class="inputText" name="leixing"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>实际用量：</text>
+      <input class="inputText" name="yongliang"></input>
+    </view>
+    <button class="Btn" form-type='submit'>确认添加</button>
+  </form>
+</view>

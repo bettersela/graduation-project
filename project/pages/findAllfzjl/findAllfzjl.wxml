@@ -1,0 +1,43 @@
+<!--顶部-->
+<view class='top'>
+  <text class='tol'>发作记录</text>
+  <button class='add' bindtap='go2'><image  class='button-image'  src='../../images/add.png'></image></button>
+  <button class='search' bindtap='go4'><image  class='button-image' src='../../images/search.png'></image></button>
+</view>
+
+<view class="line"></view>
+
+<!--列表-->
+<view class='list'>
+<view wx:for="{{list_data}}" wx:key="index" class='card'>
+  <i-card title="编号：{{item.id}}" >
+    <view slot="content">
+      <i-row>
+        <i-col span="6" i-class="col-class">发作时间</i-col>
+        <i-col span="15" i-class="col-class">{{item.year}}年{{item.month}}月{{item.day}}日</i-col>
+      </i-row>
+      <i-row>
+        <i-col span="6" i-class="col-class">发作时长</i-col>
+        <i-col span="15" i-class="col-class">{{item.shichang}}</i-col>
+        <!-- <i-col span="3" i-class="col-class">分钟</i-col> -->
+        </i-row>
+        <i-row>
+        <i-col span="6" i-class="col-class">发作类型</i-col>
+        <i-col span="15" i-class="col-class">{{item.leixing}}</i-col>
+      </i-row>
+      <i-row>
+        <i-col span="6" i-class="col-class">发作状态</i-col>
+        <i-col span="15" i-class="col-class">{{item.zhuangtai}}</i-col>
+      </i-row>
+      <i-row>
+        <i-col span="8" offset="8">
+          <i-button class='delete' bind:click="go1" id="{{item.id}}">删除</i-button>
+        </i-col>
+      </i-row>
+    </view>
+
+  </i-card>
+
+</view>
+
+</view>

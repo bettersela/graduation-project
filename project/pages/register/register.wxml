@@ -1,0 +1,71 @@
+<!--pages/register/register.wxml-->
+<!-- <view class="container">
+  <form bindsubmit='formSubmit'>
+    <input name="username" placeholder='用户名'></input>
+    <input name="password" placeholder='密码'></input>
+    <input name="name" placeholder='姓名'></input>
+    <input name="age" placeholder='年龄'></input>
+    <input name="birthday" placeholder='生日'></input>
+    <input name="sex" placeholder='性别'></input>
+    <button form-type='submit'>提交</button>
+  </form>
+</view> -->
+
+
+<view class="container">
+
+  <view class="login-icon">
+    <image class="login-img" src="../../images/baoyou.jpg"></image>
+  </view>
+  <view class="login-from">
+    <form bindsubmit='formSubmit'>
+      <!--用户名-->
+      <view class="inputView">
+        <image class="Image" src="../../images/username.png"></image>
+        <input class="inputText" name="username" placeholder='请输入用户名'></input>
+      </view>
+      <view class="line"></view>
+
+      <!--密码-->
+      <view class="inputView">
+        <image class="Image" src="../../images/pwd.png"></image>
+        <input class="inputText" name="password" placeholder='请输入密码'></input>
+      </view>
+      <view class="line"></view>
+
+      <!--姓名-->
+      <view class="inputView">
+        <image class="Image" src="../../images/name.png"></image>
+        <input class="inputText" name="name" placeholder='请输入姓名'></input>
+      </view>
+      <view class="line"></view>
+
+      <!--年龄-->
+      <view class="inputView">
+        <image class="Image" src="../../images/age.png"></image>
+        <input class="inputText" name="age" placeholder='请输入年龄'></input>
+      </view>
+      <view class="line "></view>
+
+      <!--生日-->
+      <view class="inputView ">
+        <image class="Image " src="../../images/birthday.png "></image>
+        <input class="inputText " name="birthday" placeholder='请输入出生日期'></input>
+      </view>
+      <view class="line "></view>
+
+      <!--性别-->
+      <view class="inputView ">
+        <image class="Image " src="../../images/sex.png "></image>
+        <input class="inputText " name="sex" placeholder='请输入性别'></input>
+      </view>
+      <view class="line "></view>
+
+      <!--登录按钮-->
+      <view class="loginBtnView ">
+        <button class="loginBtn " form-type='submit'>注册</button>
+      </view>
+
+    </form>
+  </view>
+</view>

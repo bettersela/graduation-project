@@ -1,0 +1,74 @@
+<!-- <view class="container">
+  <form bindsubmit='formSubmit'>
+    <picker mode="date"   name='date' value="{{date}}"    start="1900-01-01"    end="2050-12-12"    bindchange="bindDateChange"  >
+    <view class="picker">
+      时间: {{date}}
+    </view>
+  </picker>
+    <input name="shichang" placeholder='时长'></input>
+    <input name="leixing" placeholder='类型'></input>
+    <input name="zhuangtai" placeholder='状态'></input>
+
+    <button form-type='submit'>提交</button>
+  </form>
+</view>
+   -->
+
+
+
+<!-- <view class="container">
+  <form bindsubmit='formSubmit'>
+    <picker mode="date" name='date' value="{{date}}" start="1900-01-01" end="2050-12-12" bindchange="bindDateChange">
+      <view class="picker">
+        时间: {{date}}
+      </view>
+    </picker>
+    <view class="inputView">
+      <text class='text'>时长：</text>
+      <input class="inputText" name="shichang"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>类型：</text>
+      <input class="inputText" name="leixing"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>状态：</text>
+      <input class="inputText" name="zhuangtai"></input>
+    </view>
+    <button class="Btn " form-type='submit'>确认添加</button>
+  </form>
+</view> -->
+<view class="container">
+  <form bindsubmit='formSubmit'>
+    <picker mode="date" name='date' value="{{date}}" start="1900-01-01" end="2050-12-12" bindchange="bindDateChange">
+     <view class="inputView">
+      <text class='text'>发作时间：</text>
+      <view class="picker">
+        {{date}}
+      </view>
+      </view>
+    </picker>
+    <!-- <input class='input' name="shichang" placeholder='时长'></input> -->
+    <!-- <view>
+      <text>时长：</text>
+      <input class='input' name="shichang">时长</input>
+    </view> -->
+    <view class="inputView">
+      <text class='text'>发作时长：</text>
+      <input class="inputText" name="shichang"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>发作类型：</text>
+      <input class="inputText" name="leixing"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>发作状态：</text>
+      <input class="inputText" name="zhuangtai"></input>
+    </view>
+    
+    <!-- <input class='input' name="leixing ">类型</input>
+    <input class='input' name="zhuangtai ">状态</input> -->
+    <button class="Btn" form-type='submit'>确认添加</button>
+    <!-- <button form-type='submit'>提交</button> -->
+  </form>
+</view>

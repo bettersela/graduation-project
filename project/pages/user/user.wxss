@@ -1,0 +1,49 @@
+page{ 
+ height: 100%; 
+} 
+  
+.container { 
+ width: 650rpx;
+  height: 70%;
+  margin-left: 50rpx;
+  margin-right: 50rpx; 
+  border: 5rpx #358de5 solid; 
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px #888888
+} 
+  
+  
+/*表单内容*/
+.login-from { 
+  width: 100%;
+ /* margin-top: 10px;  */
+ flex: auto; 
+ height:100%; 
+} 
+  
+.inputView { 
+  width: 100%;
+ background-color: none; 
+ line-height: 44px; 
+} 
+/*输入框*/
+Image { 
+ margin-left: 22px; 
+ width: 20px; 
+ height: 20px
+} 
+  
+/* .loginLab { 
+ margin: 15px 0px 0px 10px; 
+ color: #545454; 
+ font-size: 14px
+}  */
+.line { 
+ width: 90%; 
+ height: 1px; 
+ background-color: #000; 
+ margin-top: 1px; 
+ margin-left: 5%;
+ margin-right: 5%;
+} 
+

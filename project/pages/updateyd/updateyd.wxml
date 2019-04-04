@@ -1,0 +1,11 @@
+<!--pages/updateyd/updateyd.wxml-->
+<view class="container">
+  <form bindsubmit='formSubmit'>
+    <input name="id" placeholder='药单id'></input>
+    <input name="sday" placeholder='开始时间'></input>
+    <input name="eday" placeholder='结束时间'></input>
+    <input name="time" placeholder='服药时间'></input>
+    <input name="amount" placeholder='服药数量'></input>
+    <button form-type='submit'>提交</button>
+  </form>
+</view>

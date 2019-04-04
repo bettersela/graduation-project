@@ -1,36 +1,39 @@
 {
-  "pages": [
-    "HealthManager/Management/Disease/disease",
-    "HealthManager/Management/management",
+  "pages":[
     
-    "HealthManager/Management/Medicine/medicine",
-    "HealthManager/Personal/personal",
-    "HealthManager/Management/Disease/AddDisease/addDisease",
-    "HealthManager/Management/Disease/ModDisease/modDisease",
-    "HealthManager/Login/login"
-
-    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/addPage/addPage",
+    "pages/register/register",
+    "pages/yd/yd",
+    "pages/insertyd/insertyd",
+    "pages/deleteyd/deleteyd",
+    "pages/updateyd/updateyd",
+    "pages/findAllyd/findAllyd",
+    "pages/findyd/findyd",
+    "pages/fzjl/fzjl",
+    "pages/insertfzjl/insertfzjl",
+    "pages/deletefzjl/deletefzjl",
+    "pages/findAllfzjl/findAllfzjl",
+    "pages/findfzjl/findfzjl",
+    "pages/fyyc/fyyc",
+    "pages/insertfyyc/insertfyyc",
+    "pages/deletefyyc/deletefyyc",
+    "pages/findAllfyyc/findAllfyyc",
+    "pages/findfyyc/findfyyc",
+    "pages/blfy/blfy",
+    "pages/insertblfy/insertblfy",
+    "pages/deleteblfy/deleteblfy",
+    "pages/findAllblfy/findAllblfy",
+    "pages/findblfy/findblfy",
+    "pages/fygl/fygl",
+    "pages/insertfzjl1/insertfzjl1",
+    "pages/user/user"
   ],
-  "tabBar": {
-    "list": [
-      {
-        "text": "健康管理",
-        "pagePath": "HealthManager/Management/management",
-        "iconPath": "images/management.png",
-        "selectedIconPath": "images/management-selected.png"
-      },
-      {
-        "text": "个人中心",
-        "pagePath": "HealthManager/Personal/personal",
-        "iconPath": "images/personal.png",
-        "selectedIconPath": "images/personal-selected.png"
-      }
-    ],
-    "color": "#000",
-    "selectedColor": "#358de5"
-  },
-  "window": {
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
   }
 }

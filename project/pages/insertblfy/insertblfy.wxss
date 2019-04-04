@@ -1,0 +1,84 @@
+/* pages/insertyd/insertyd.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container{
+  width: 700rpx;
+  height: 900rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx; 
+  margin-top: 50rpx;
+  border: 5rpx #358de5 solid;
+  border-radius:25px;
+  display:flex;
+  justify-content: center;        
+  align-items:center;  
+}
+
+.picker{
+  /* margin-top: 50rpx; */
+  display:flex; 
+  align-items:center; 
+  flex: block; 
+ float: right; 
+ text-align: left; 
+ margin-right: 22px; 
+ margin-top:11px; 
+ color: #000; 
+ font-size: 14px;
+ border: 2rpx #358de5 solid;
+ width: 160px;
+ height: 28px;
+}
+
+.inputView { 
+ background-color: #fff; 
+ line-height: 44px; 
+ margin-top: 20rpx;
+} 
+/*输入框*/
+.text{ 
+ /* margin-left: 22px;  */
+ width: 14px; 
+ height: 14px;
+} 
+
+.inputText { 
+ flex: block; 
+ float: right; 
+ text-align: left; 
+ margin-right: 22px; 
+ margin-top:11px; 
+ color: #000; 
+ font-size: 14px;
+ border: 2rpx #358de5 solid;
+} 
+/* .input{
+  margin-top:10rpx;
+  color: #000; 
+} */
+/*按钮*/ 
+.Btn{ 
+width: 80%;
+margin-top: 30px;
+background-color: #358de5; 
+color: #fff;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.smart.dao.ydMapper">
+
+    <select id="findAll" resultType="com.smart.pojo.yd">
+        select * from yd where userName=#{userName}
+    </select>
+
+    <select id="findByName" resultType="com.smart.pojo.yd">
+        select * from yd where name=#{name} and userName=#{userName}
+    </select>
+
+    <insert id="insertyd" parameterType="com.smart.pojo.yd">
+        insert into yd(sday,eday,name,time,amount,userName) VALUES (#{sday},#{eday},#{name},#{time},#{amount},#{userName})
+    </insert>
+
+    <delete id="deleteyd">
+        delete from yd where id= #{id}
+    </delete>
+
+    <update id="updateyd" parameterType="com.smart.pojo.yd">
+        update yd set sday=#{sday},eday=#{eday},time=#{time},amount=#{amount} where id=#{id}
+    </update>
+</mapper>

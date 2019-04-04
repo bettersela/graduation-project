@@ -1,0 +1,26 @@
+<!--pages/insertblfy/insertblfy.wxml-->
+<view class="container">
+  <form bindsubmit='formSubmit'>
+    <!-- <input name="name" placeholder='药名'></input>
+    <input name="shijian" placeholder='时间'></input>
+    <input name="fanyin" placeholder='反应'></input>
+    <input name="chixushijian" placeholder='持续时间'></input> -->
+    <view class="inputView">
+      <text class='text'>药品名称：</text>
+      <input class="inputText" name="name"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>反应时间：</text>
+      <input class="inputText" name="shijian"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>反应症状：</text>
+      <input class="inputText" name="fanying"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>持续时间：</text>
+      <input class="inputText" name="chixushijian"></input>
+    </view>
+    <button class="Btn" form-type='submit'>确认添加</button>
+  </form>
+</view>

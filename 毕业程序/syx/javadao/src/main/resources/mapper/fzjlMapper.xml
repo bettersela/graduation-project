@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.smart.dao.fzjlMapper">
+
+    <select id="findAll" resultType="com.smart.pojo.fzjl">
+        select * from fzjl where userName=#{userName}
+    </select>
+
+    <select id="findByDate" resultType="com.smart.pojo.fzjl">
+        select * from fzjl where year=#{year} and month=#{month} and day=#{day} and userName=#{userName}
+    </select>
+
+    <insert id="insertfzjl" parameterType="com.smart.pojo.fzjl">
+        insert into fzjl(year,month,day,shichang,leixing,zhuangtai,userName) VALUES (#{year},#{month},#{day},#{shichang},#{leixing},#{zhuangtai},#{userName})
+    </insert>
+
+    <delete id="deletefzjl">
+        delete from fzjl where id= #{id}
+    </delete>
+</mapper>

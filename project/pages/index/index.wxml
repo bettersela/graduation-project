@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <form bindsubmit='formSubmit'>
+    <input name="username" placeholder='用户名'></input>
+    <input name="password" placeholder='密码'></input>
+    <button form-type='submit'>提交</button>
+  </form>
+  <button bindtap='go'>注册</button>
+</view>-->
+
+<view class="container">
+
+  <view class="login-icon">
+    <image class="login-img" src="../../images/baoyou.jpg"></image>
+  </view>
+  <view class="login-from">
+<form bindsubmit='formSubmit'>
+    <!--用户名-->
+    <view class="inputView">
+      <image class="nameImage" src="../../images/username.png"></image>
+      <input class="inputText" name="username" placeholder='请输入用户名'></input>
+    </view>
+    <view class="line"></view>
+
+    <!--密码-->
+    <view class="inputView">
+      <image class="keyImage" src="../../images/pwd.png"></image>
+      <input class="inputText" name="password" password="true" placeholder='请输入密码'></input>
+    </view>
+
+    <!--登录按钮-->
+    <view class="loginBtnView">
+      <button class="loginBtn" form-type='submit'>登录</button>
+    </view>
+</form>
+    <view class="registerView">
+      <text bindtap='go' class="register">还没有账户，先去注册</text>
+    </view>
+  </view>
+</view>

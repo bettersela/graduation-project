@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.smart.dao.blfyMapper">
+
+    <select id="findAll" resultType="com.smart.pojo.blfy">
+        select * from blfy where userName=#{userName}
+    </select>
+
+    <select id="findByName" resultType="com.smart.pojo.blfy">
+        select * from blfy where name=#{name} and userName=#{userName}
+    </select>
+
+    <insert id="insertblfy" parameterType="com.smart.pojo.blfy">
+        insert into blfy(name,shijian,fanying,chixushijian,userName) VALUES (#{name},#{shijian},#{fanying},#{chixushijian},#{userName})
+    </insert>
+
+    <delete id="deleteblfy">
+        delete from blfy where id= #{id}
+    </delete>
+</mapper>

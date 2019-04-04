@@ -1,0 +1,52 @@
+<!--pages/insertyd/insertyd.wxml-->
+<view class="container">
+  <form bindsubmit='formSubmit'>
+    <!-- <picker mode="date" name='sday' value="{{date}}" start="1900-01-01" end="2050-12-12" bindchange="bindDateChange">
+      <view class="inputView">
+        <text class='text'>开始日期：</text>
+        <view class="picker">
+          {{date}}
+        </view>
+      </view>
+    </picker>
+
+    <picker mode="date" name='eday' value="{{date}}" start="1900-01-01" end="2050-12-12" bindchange="bindDateChange">
+      <view class="inputView">
+        <text class='text'>结束日期：</text>
+        <view class="picker">
+          {{date}}
+        </view>
+      </view>
+    </picker> -->
+    <view class="inputView">
+      <text class='text'>开始日期：</text>
+      <input class="inputText" name="sday"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>结束日期：</text>
+      <input class="inputText" name="eday"></input>
+    </view>
+
+    <view class="inputView">
+      <text class='text'>药品名称：</text>
+      <input class="inputText" name="name"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>服药时间：</text>
+      <input class="inputText" name="time"></input>
+    </view>
+    <view class="inputView">
+      <text class='text'>服药数量：</text>
+      <input class="inputText" name="amount"></input>
+    </view>
+    <button class="Btn" form-type='submit'>确认添加</button>
+
+
+    <!-- <input name="sday" placeholder='开始时间'></input>
+    <input name="eday" placeholder='结束时间'></input>
+    <input name="name" placeholder='药名'></input>
+    <input name="time" placeholder='服药时间'></input>
+    <input name="amount" placeholder='服药数量'></input>
+    <button form-type='submit'>提交</button> -->
+  </form>
+</view>

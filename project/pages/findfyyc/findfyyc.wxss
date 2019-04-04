@@ -1,0 +1,63 @@
+/* 顶部时间筛选和搜索 */
+.top{
+  width: 100%;
+  height: 100rpx;
+  border: 2rpx none solid;
+}
+
+.search{
+  width: 20%; 
+  height: 60%;
+ margin-right:20px;
+ margin-top:20rpx; 
+ float:right;
+ background-color: #358de5;
+ font-size: 15px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.line { 
+ width: 90%; 
+ height: 1px; 
+ background-color: #000; 
+ margin-top: 1px; 
+ margin-left: 5%;
+ margin-right: 5%;
+} 
+/* 列表 */
+.list{
+margin-top: 20px;
+}
+.card{
+  margin-top:10px; 
+}
+/* .darkcolor{
+  color: #fff;
+} */
+
+.inputView { 
+width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:20px;
+  float:left;
+} 
+/*输入框*/
+.text{ 
+ /* margin-left: 22px;  */
+ width: 50%; 
+} 
+
+.inputText { 
+  width: 70%;
+ flex: block; 
+ float: right; 
+ text-align: left;  
+ color: #000; 
+ font-size: 14px;
+ border: 2rpx #358de5 solid;
+} 

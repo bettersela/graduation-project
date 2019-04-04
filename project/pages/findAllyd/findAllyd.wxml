@@ -1,0 +1,49 @@
+<!--顶部-->
+<view class='top'>
+  <text class='tol'>药单记录</text>
+  <button class='add' bindtap='go2'>
+    <image class='button-image' src='../../images/add.png'></image>
+  </button>
+  <button class='search' bindtap='go3'><image  class='button-image' src='../../images/search.png'></image></button>
+</view>
+
+<view class="line"></view>
+
+<!--列表-->
+<view class='list'>
+  <view wx:for="{{list_data}}" wx:key="index" class='card'>
+    <i-card title="编号：{{item.id}}">
+      <view slot="content">
+        
+        <i-row>
+          <i-col span="6" i-class="col-class">开始日期</i-col>
+          <i-col span="15" i-class="col-class">{{item.sday}}</i-col>
+        </i-row>
+        <i-row>
+          <i-col span="6" i-class="col-class">结束日期</i-col>
+          <i-col span="15" i-class="col-class">{{item.eday}}</i-col>
+        </i-row>
+        <i-row>
+          <i-col span="6" i-class="col-class">药品名称</i-col>
+          <i-col span="15" i-class="col-class">{{item.name}}</i-col>
+        </i-row>
+        <i-row>
+          <i-col span="6" i-class="col-class">服药时间</i-col>
+          <i-col span="15" i-class="col-class">{{item.time}}</i-col>
+        </i-row>
+        <i-row>
+          <i-col span="6" i-class="col-class">服药量</i-col>
+          <i-col span="15" i-class="col-class">{{item.amount}}</i-col>
+        </i-row>
+        <i-row>
+          <i-col span="8" offset="8">
+            <i-button bind:click="go1" id="{{item.id}}">删除</i-button>
+          </i-col>
+        </i-row>
+      </view>
+
+    </i-card>
+
+
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/yd/yd.wxml-->
+<button bindtap='go1'>增加药单</button>
+<!--<button bindtap='go2'>删除药单</button>-->
+<button bindtap='go3'>修改药单</button>
+<button bindtap='go4'>查看所有药单</button>
+<button bindtap='go5'>查询药单</button>
+
+

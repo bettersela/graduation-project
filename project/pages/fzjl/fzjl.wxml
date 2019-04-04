@@ -1,0 +1,5 @@
+<!--pages/fzjl/fzjl.wxml-->
+<button bindtap='go1'>增加记录</button>
+<button bindtap='go2'>删除记录</button>
+<button bindtap='go3'>查看所有记录</button>
+<button bindtap='go4'>查询记录</button>

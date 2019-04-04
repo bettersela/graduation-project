@@ -1,0 +1,21 @@
+<!--pages/addPage/addPage.wxml-->
+  <!-- <button bindtap='go1'>发作记录</button>
+  <button bindtap='go2'>服药管理</button>
+  <button bindtap='go3'>快速添加</button>
+  <button bindtap='go4'>用户信息</button> -->
+  <view>
+  <button class='btn' bindtap='go1'>
+    <image class='btnImg' src='../../images/disease.png'></image>
+    <view>病程管理</view>
+  </button>
+
+  <button class='btn' bindtap='go2'>
+    <image class='btnImg' src='../../images/medicine.png'></image>
+    <view>服药管理</view>
+  </button>
+
+  <button class='btn' bindtap='go4'>
+    <image class='btnImg' src='../../images/message.png'></image>
+    <view>个人信息</view>
+  </button>
+ </view>

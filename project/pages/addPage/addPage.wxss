@@ -1,0 +1,21 @@
+.btn{
+  width: 250rpx;
+  height: 250rpx; 
+  margin-top: 100rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+}
+.btnImg {
+  width: 100rpx;
+  height: 100rpx;
+}
+.btn::after {
+  border: 0; 
+}
+

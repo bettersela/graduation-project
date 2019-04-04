@@ -1,0 +1,27 @@
+.button {
+  /* margin-top: 30px;
+  width: 80%;
+  background-color: #358de5;
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red; */
+  width: 250rpx;
+  height: 250rpx;
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40rpx;
+  color: #358de5;
+  border: 10rpx #358de5 solid;
+  border-radius: 100px;
+  background: #fff;
+}
+
+/* 按下变颜色 */
+/* 
+.hover {
+  background: linear-gradient(#fff, #e99b0a);
+} */

@@ -1,0 +1,34 @@
+<!--pages/user/user.wxml-->
+  <!-- <text> 姓名：{{returnname}}</text>
+  <text> 年龄：{{returnage}}</text>
+  <text> 生日：{{returnbirthday}}</text>
+  <text> 性别：{{returnsex}}</text> -->
+<view class="container">
+
+  <view class="login-from">
+      <view class="inputView">
+        <image class="Image" src="../../images/name.png"></image>
+        <text class> 姓名：{{returnname}}</text>
+      </view>
+      <view class="line"></view>
+
+      <view class="inputView">
+        <image class="Image" src="../../images/age.png"></image>
+        <text> 年龄：{{returnage}}</text>
+      </view>
+      <view class="line"></view>
+
+      <view class="inputView">
+        <image class="Image" src="../../images/birthday.png"></image>
+        <text> 生日：{{returnbirthday}}</text>
+      </view>
+      <view class="line"></view>
+
+      <view class="inputView">
+        <image class="Image" src="../../images/sex.png"></image>
+        <text> 性别：{{returnsex}}</text>
+      </view>
+      <view class="line"></view>
+
+  </view>
+</view>
